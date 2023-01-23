@@ -1,0 +1,63 @@
+/* change the font of the entire document */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f1f1ef;
+}
+
+/* change the color of headings */
+h1, h2, h3 {
+  color: #00008B;
+}
+
+#about {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+
+/* change the background color of the table of contents section */
+#table-of-contents {
+  background-color: #E6E6FA;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* change the color of text in the table of contents */
+#table-of-contents a {
+  color: #8B008B;
+  text-decoration: none;
+}
+
+/* change the color of links when hovered over */
+a:hover {
+  color: #FF00FF;
+}
+
+/* change the display property to display the list items in a horizontal row */
+#table-of-contents li {
+  display: inline-block;
+  margin: 0 5px;
+}
+/* 
+.right-panel {
+  float: right;
+  width: 30%;
+} */
+
+.right-panel {
+  float: right;
+  width: 20%;
+  background-color: rgb(217, 215, 225); /* adds a light gray background color */
+  padding: 20px; /* adds padding to the panel */
+  margin: 20px 0; /* adds margin to the top and bottom of the panel */
+  font-size: 16px; /* sets the font size of the text */
+  font-family: Arial, sans-serif; /* sets the font family */
+  color: #333; /* sets the text color */
+}
+
+.right-panel h2 {
+  font-size: 18px; /* sets the font size of the headings */
+  font-weight: bold; /* makes the headings bold */
+  margin-bottom: 10px; /* adds margin to the bottom of the headings */
+}

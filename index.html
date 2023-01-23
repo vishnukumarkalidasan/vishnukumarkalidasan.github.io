@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <link rel="stylesheet" type="text/css" href="styles.css">
   <title>Vishnu Kumar Kalidasan Resume</title>
 </head>
 <body>
 <div id="table-of-contents">
-    <h2>Table of Contents</h2>
+    <!-- <h2>Table of Contents</h2> -->
     <ul>
+      <li><a href="#about">About</a></li>
       <li><a href="#summary">Summary</a></li>
       <li><a href="#education">Education History</a></li>
       <li><a href="#technical">Technical Knowledge</a></li>
@@ -18,32 +20,85 @@
       <li><a href="#extra">Extra-Curriculars</a></li>
     </ul>
   </div>
+
+  <!-- righ panel contaning linkedin about information -->
+  <div class="right-panel">
+    <h2>Work domain</h2>
+    <p>Embedded firmware development, Device driver, Operating systems, Computer Architecture, Imaging Camera integration, bring-up and characterization, image quality analysis, ISP tuning</p>
+    <h2>Key Skills</h2>
+    <ul>
+      <li>Camera bring up and driver development</li>
+      <li>I2c, Spi, UART, Mipi</li>
+      <li>Image quality analysis and ISP tuning</li>
+      <li>Linux kernel Device driver development</li>
+      <li>V4L2 based application development</li>
+      <li>Gstreamer</li>
+      <li>NVIDIA tegra platform; VisionWorks & Deepstream</li>
+      <li>System software design</li>
+      <li>Computer Architecture</li>
+      <li>Embedded C, C++ and python</li>
+      <li>bare metal programming</li>
+    </ul>
+  </div>
+  
   <h1>Vishnu Kumar Kalidasan</h1>
   <a href="https://linkedin.com/in/vishnukumar">Linkedin</a> | 
   <a href="https://github.com/vishnukumar">Github</a>  | 
   <a href="tel:+15405585235">+1 (540) 558-5235</a>   | 
   <a href="mailto:vishnukumar@vt.edu">vishnukumar@vt.edu</a>
+
+  <h2 id="about">ABOUT</h2>
+<p>An embedded firmware engineer with a passion towards technology, a thirst for knowledge and a strive to create better products for world welfare. As a Firmware engineer, I started my career with projects based on Yocto BSPs, device driver and V4L2-based applications development. On the go, I narrowed down my area of interest to Linux driver development, multimedia HW and related applications, where I ended up working on challenging and interesting solutions like custom image sensors (FB, TOF, EB) bring up, multimedia pipeline design, image quality analysis and tuning, developing vision-based solutions for automotive, rescue devices, and entertainment, and designing features to provide customized products and solutions. I have also actively worked on enabling the mobile camera and vision-based Custom hardware and software vendors to develop and productize their solutions cumulatively adding up to 4 years of customer handling experience.</p>
+
+
   <h2><a id="summary">Summary</a></h2>
   <ul>
     <li>Experienced Embedded software engineer with a passion for technology and product development.</li>
     <li>Strong knowledge of Linux Kernel internals, Linux Kernel driver development, device trees, Interrupt handling, Memory management, virtual memory, and caching.</li>
         <li>Strong practical experience in debugging and developing firmware, Embedded systems design, Linux, and board bring-up.</li>
-    <li>Designed and developed camera multimedia pipelines for Single, stereo, multi-camera, Event-based and TOF sensors.</li>
-    <li>Skilled in utilizing Schematics, and Oscilloscope for high-speed device bring-up.</li>
+    <li>Strong knowledge of C/C++, software design, programming techniques, system architecture and Operating systems.</li>
+        <li>Good knowledge of OS architecture, RTOS, Compiler optimization techniques, data structures, and algorithms.</li>
+        <li>Designed and developed camera multimedia pipelines for Single, stereo, multi-camera, Event-based and TOF sensors.</li>
+    <li>Skilled in utilizing Datasheets, Schematics, and Oscilloscope for high-speed device bring-up.</li>
     <li>Experienced in low and high-speed device bring-up and V4L2 multimedia framework.</li>
   </ul>
   <h2><a id="education">Education History</a></h2>
   <ul>
-    <li>Masters in Computer Engineering, Virginia Tech, Blacksburg, VA (August 2022 - Dec 2023)	          GPA 4.0 Coursework: Advanced Linux Kernel Programming, Computer Architecture, Operating Systems.</li>
+    <li>Masters in Computer Engineering, Virginia Tech, Blacksburg, VA (August 2022 - Dec 2023)  GPA 4.0 </li>
+      <ul><li>Coursework: Advanced Linux Kernel Programming, Computer Architecture, Operating Systems.</li></ul>
     <li>B.E in Electrical and Electronics Engineering, Anna University, Chennai, India (July 2013 - April 2017)</li>
   </ul>
   <h2><a id="technical">Technical Knowledge</a></h2>
-  <ul>
-    <li>Language: C, C++, Python and bash scripting</li>
-    <li>Debugging: kprobe, ftrace, GDB, addr2line, eBPF, JTAG</li>
-    <li>Protocol: I2C, UART, MIPI, SPI</li>
-    <li>SOCs: Nvidia tegra platforms, Snapdragon SM8xxx, NXP IMX6</li>
-  </ul>
+  <table>
+    <tr>
+      <td><b>Languages:</b></td>
+      <td>C, C++, Python, Bash scripting</td>
+    </tr>
+    <tr>
+      <td><b>Tools & Debugging:</b></td>
+      <td>Git, Qemu, Gcc, Clang, Yocto, GDB, JDB, kprobe, ftrace, addr2line, eBPF, JTAG</td>
+    </tr>
+    <tr>
+      <td><b>Protocol:</b></td>
+      <td>I2C, UART, MIPI, SPI</td>
+    </tr>
+    <tr>
+      <td><b>Platforms:</b></td>
+      <td>Linux, Android</td>
+    </tr>
+    <tr>
+      <td><b>SOCs:</b></td>
+      <td>Nvidia tegra platforms, Snapdragon SM8xxx, NXP IMX6</td>
+    </tr>
+  </table>
+  
+  <!-- <ul>
+    <li><b>Languages:</b> C, C++, Python and bash scripting</li>
+    <li><b>Tools & Debugging:</b> Git, Qemu, Gcc, Clang, Yocto, GDB, JDB, kprobe, ftrace, addr2line, eBPF, JTAG</li>
+    <li><b>Protocol:</b> I2C, UART, MIPI, SPI</li>
+    <li><b>Platforms:</b> Linux, Android</li>
+    <li><b>SOCs:</b> Nvidia tegra platforms, Snapdragon SM8xxx, NXP IMX6</li>
+  </ul> -->
   <h2><a id="experience">Experience & Project Highlights</a></h2>
   <h3>Virginia Tech: Graduate Researcher</h3>
   <ul>
@@ -73,46 +128,72 @@
     <li>Prototyped IOT based electronic system for washing machine involving GSM module for REST api communication, pressure/temperature sensors, and actuators, using Arduino.</li>
     <li>Developed prototype of GPS based speed monitoring system and TPMS for an automotive startup.</li>
   </ul>
-  <h2><a id="finalyear">Final Year Project & Publications</a></h2>
+  <h2><a id="finalyear">Bachelor's Final Year Project & Publications</a></h2>
   <p>On Road Data Acquisition based ADAS Module</p>
   <ul>
-    <li>Developed an OBD analyser based ADAS module with below functionalities.</li>
-    <li>- Collects data from Onboard diagnostics unit of a car and performs driving pattern analysis.</li>
-        <li>- Inter-car communication using NRF Module, eliminating internet dependency.</li>
-    <li>- Detects Potholes, creates a database and alerts driver based on captured historic data.</li>
+    <li>Developed an OBD (On-Board Diagnostics unit) analyser based ADAS module with below functionalities.</li>
+    <ul>
+    <li>Collects data from Onboard diagnostics unit of a car and performs driving pattern analysis.</li>
+        <li>Inter-car communication using NRF Module, eliminating internet dependency.</li>
+    <li>Detects Potholes, creates a database and alerts driver based on captured historic data.</li>
+    </ul>
   </ul>
   <h3>Publication:</h3>
   <ul>
     <li>Autonomous Navigation System for Pilotless Manoeuvring through waters - [International] IRJET, Aug 2020</li>
   </ul>
+  
+  <h2><a id="courses">Courses</a></h2>
+  <ul>
+    <li>Semester 1:</li>
+    <ul>
+    <li>Advanced Linux Kernel Programming, grade: 4.0</li>
+    <li>Computer Achitecture,  grade: 4.0</li>
+    <li>Operating Systems, grade: 4.0</li>
+    </ul>
+    <li>Semester 2:</li>
+    <ul>
+    <li>Compiler optimization</li>
+    <li>Advanced RTOS</li>
+    <li>Advanced Operating Systems</li>
+    </ul>
+    <li>Extras:</li>
+    <ul>
+    <li>Embedded system design with ARM – NPTEL</li>
+    <li>Realtime Operating System - NPTEL</li>
+    <li>Linux kernel security and debugging.</li>
+    </ul>
+  </ul>
+  
   <h2><a id="honours">Honours and awards</a></h2>
   <ul>
     <li>Orian Insta Award – Qualcomm, 2021</li>
-    <li>For outstanding performance and contributions</li>
+    <ul>
+            <li>For outstanding performance and contributions</li>
+        </ul>
     <li>Best Intern of the year 2017 – E-con Systems, 2017</li>
     <li>Microsoft Imagine Cup Big Idea '16 - Top 10 at global level - December 2015</li>
+    <ul>
     <li>Project: Smart Health E-Alert System</li>
+    </ul>
     <li>1st Runner up in the India Analog Maker - Texas Instruments - 2015</li>
     <li>One among Top 10 Finalist in Make in India Hackathon</li>
-    <li>Government of India and Indian Institute of technology, Mumbai</li>
+    <ul><li>Government of India and Indian Institute of technology, Mumbai</li>
     <li>Project: Cognitive Flood Monitoring and Control System</li>
+    </ul>
     <li>Finalist of Intel IOT Roadshow 2015, pune</li>
-    <li>Project: Smart Driving Pattern Analysis</li>
+    <ul><li>Project: Smart Driving Pattern Analysis</li></ul>
     <li>FIRST position in the zonal round of IURAL (Indo-US Robo League)
 Technophilia, September 2014</li>
     <li>Finalist of ARM Design Contest
 ACCS ADCOM & ARM, October 2015</li>
-    <li>Project: Smart Driving Pattern Analysis</li>
+    <ul><li>Project: Smart Driving Pattern Analysis</li></ul>
     <li>Second place in VITCC MAKEATHON
 Vellore Institute of Technology, April 2016</li>
-    <li>Project: Smart Agro for Hydroponics</li>
+    <ul><li>Project: Smart Agro for Hydroponics</li></ul>
   </ul>
-  <h2><a id="courses">Courses</a></h2>
-  <ul>
-    <li>Embedded system design with ARM – NPTEL</li>
-    <li>Realtime Operating System - NPTEL</li>
-    <li>Linux kernel security and debugging.</li>
-  </ul>
+  
+
   <h2><a id="extra">Extra-Curriculars</a></h2>
   <ul>
     <li>Conducted Multiple Workshops, and guest lectures for the college students to help improve their embedded engineering skills and choose right career path. Was honoured with Guest Lecture appreciation award from RMK engineering college alumni committee.</li>
